@@ -1,0 +1,48 @@
+[user]
+  # your name here
+	name = John Doe
+
+  # your email here
+	email = johndoe@mail.com
+
+[alias]
+  # amend
+	amend = commit --amend
+
+  # commit with message
+	cm = commit -m  
+
+  # checkout
+  c = checkout
+  check = checkout
+
+  # checkout previous branch
+  b = checkout -
+  back = checkout -
+
+  # fetch all and pull
+  fap = !git fetch --all --prune && git pull
+  
+  # pull
+  p = pull
+
+  # push and skip hooks
+  pn = push --no-verify
+  pnv = push --no-verify
+
+  # force push and skip hooks
+  pnf = push --no-verify --force
+  pnvf = push --no-verify --force
+
+  # short status with branch information
+	s = status -sb
+
+  # pretty log
+	l = log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)' --all
+  
+  # delete all merged branches
+  dm = "!git branch --merged | grep -v '\\*' | xargs -n 1 git branch -d"
+
+[core]
+  # your editor here
+	editor = vim
