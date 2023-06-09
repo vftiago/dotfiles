@@ -1,0 +1,12 @@
+{
+  "editor.formatOnSave": true,
+  "editor.tabSize": 2,
+  "editor.wordWrap": "wordWrapColumn",
+  "editor.detectIndentation": false,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.wordWrapColumn": 200,
+  "prettier.printWidth": 200,
+  "files.insertFinalNewline": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "always"
+}
