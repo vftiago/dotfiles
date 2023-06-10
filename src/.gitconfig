@@ -26,6 +26,9 @@
   # pull
   p = pull
 
+  # push
+  ps = push
+
   # push and skip hooks
   pn = push --no-verify
   pnv = push --no-verify
